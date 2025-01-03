@@ -3,14 +3,14 @@
   margin-top: 75px
 }
 .btn {
-  background: #00b300;
-  border-color: #009d00;
+  background: #e2dd54;
+  border-color: #e2dd54;
 }
 .btn:hover {
-  background: #009d00;
-  border-color: #008900;
+  background: #e2dd54;
+  border-color: #e2dd54;
 }
 .btn:focus {
-  background: #009d00;
-  border-color: #008900;
+  background: #e2dd54;
+  border-color: #e2dd54;
 }

@@ -3,7 +3,7 @@
   margin-top: 75px
 }
 .btn {
-  background-color: #03a56a;
+  background-color: #5f5e24;
   border: none;
   color: white;
   padding: 10px 25px;
@@ -14,11 +14,11 @@
 }
 .btn:hover {
     color: white;
-    background: #009d00;
-    border-color: #008900;
+    background: #e2dd54;
+    border-color: #e8e357;
 }
 .btn:focus {
     color: white;
-    background: #009d00;
-    border-color: #008900;
+    background: #e2dd54;
+    border-color: #e8e357;
 }
