@@ -7,14 +7,16 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #63ec85;
-  color: #67686A;
+  background-color: #e2dd54 !important;
+  color: #a24949;
 }
+
+
 
 .outer_wrapper {
   z-index: -1;
   position: absolute;
-  width: 100%;
+  width: 100%;  
   height: 100vh;
   overflow: hidden;
 }
@@ -31,7 +33,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 150px;
-  background-color: rgb(1, 143, 96);
+  background-color: rgb(168, 159, 61);
 }
 
 .cat {
@@ -44,6 +46,22 @@ body {
   transform-origin: center;
   background-color: transparent;
 }
+
+/* Add the bounce animation for the logo */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Apply the bounce animation to the logo */
+.logo {
+  animation: bounce 1s infinite;
+}
+
 
 /* body */
 
@@ -274,12 +292,12 @@ svg {
 }
 
 polygon.eyes {
-  fill: rgb(1, 143, 96);
+  fill: #e2dd54;
 }
 
 polygon,
 path {
-  fill: white;
+  fill: black;
 }
 
 .sign {

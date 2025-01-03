@@ -30,18 +30,24 @@
 }
 
 .bg-steel { 
-	background-color: #4CAF50; 
+	background-color: rgb(168, 159, 61); 
 }
 
 .navbar-nav .nav-link { 
-	color: #cbd5db; 
+	color: #0000; 
 	position: relative;
+}
+/* main.css */
+.black-link {
+    color: black !important;
 }
 
 .nav-link:hover { 
 	color: #ffffff; 
 }
-
+.trackfit-title {
+    color: black !important;
+}
 @keyframes transitionIn {
   from {
     opacity: 0;

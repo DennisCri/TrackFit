@@ -22,27 +22,28 @@
       	<nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         	<div class="container">
 
-    			<!-- Health Tracker (Links to Home Page (Relace with Logo in Future) -->
-          		<a class="navbar-brand" href="/">Health Tracker</a>
+    			<!-- Health Tracker (Links to Home Page (Replace with Logo in Future) -->
+				<a class="navbar-brand" href="/" style="color: black;">TrackFit</a>
+
 
           		<!-- Left Align: Links to Home and Stats Pages -->
           		<div class="navbar-collapse navbar-nav">
-          			<a class="nav-item nav-link" href="/home">Home</a>
+          			<a class="nav-item nav-link black-link" href="/home">Home</a>
       			    {% if session["username"] %}
-				        <a class="nav-item nav-link" href="/stats">Statistics</a>
-				        <a class="nav-item nav-link" href="/graphs">Graphs</a>
-				        <a class="nav-item nav-link" href="/log_data">Log Data</a>
-				        <a class="nav-item nav-link" href="/search">Search</a>
+				        <a class="nav-item nav-link black-link" href="/stats">Statistics</a>
+				        <a class="nav-item nav-link black-link" href="/graphs">Graphs</a>
+				        <a class="nav-item nav-link black-link" href="/log_data">Log Data</a>
+				        <a class="nav-item nav-link black-link" href="/search">Search</a>
 				    {% endif %}
           		</div>
 
           		<!-- Right Align: Links to Login and Register Page -->
           		<div class="navbar-nav">
           			{% if session["username"] %}
-				        <a class="nav-item nav-link" href="/logout">Logout</a>
+				        <a class="nav-item nav-link black-link" href="/logout">Logout</a>
 				    {% else %}
-				        <a class="nav-item nav-link" href="/login">Login</a>
-	      				<a class="nav-item nav-link" href="/register">Register</a>
+				        <a class="nav-item nav-link black-link" href="/login">Login</a>
+	      				<a class="nav-item nav-link black-link" href="/register">Register</a>
 				    {% endif %}
           		</div>
 
