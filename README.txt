@@ -30,6 +30,7 @@ Errors:
 BONUS FEATURES:
 
 -Email validator, cannot use invalid email.
+-Password hash encryption.
 -Cat follows cursor on Homepage.
 -Search function for any user.
 
